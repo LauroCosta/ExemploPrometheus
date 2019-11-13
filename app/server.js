@@ -112,8 +112,8 @@ io.on("connection", function(socket) {
   });
 });
 
-webServer.listen(3333, function() {
-  console.log("> Server listening on port:", 3333);
+webServer.listen(5000, function() {
+  console.log("> Server listening on port:", 5000);
 });
 
 function createGame() {
